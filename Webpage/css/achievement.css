@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+.achieve h3 ,p{
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    line-height: 2.5em;
+}
+section.achieve{
+    padding: 4.25em;
+}
+
+.achieve p{
+    font-size: 1em;
+}
+
+.achieve h3{
+    font-size: 2em;
+}
+
+section.achievementimg{
+    background-image: url(../images/achievement.jpg);
+    height: 30em;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover ;
+}
+
+section.achievement {
+    padding: 2em;
+}
+
