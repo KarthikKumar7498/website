@@ -23,7 +23,7 @@ color: #000000;
 
 
 section.stray{
-    padding: 6.25em;
+    padding: 4.25em;
     box-sizing: border-box;
     height: auto;
 }
@@ -100,6 +100,11 @@ section.strayimg1{
     section.stray p{
         
         font-size: 0.5em;
+    }
+    section.strayimg1{
+        background-size: contain;
+        overflow:hidden;
+        background-repeat: no-repeat;
     }
 }
 
