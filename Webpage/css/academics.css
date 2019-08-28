@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.academic h3 , h2 ,p{
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+}
+
+.academic p{
+    font-size: 1em;
+}
+
+.academic h3{
+    font-size: 2em;
+}
+
+.academic h2{
+    font-size: 2.5em;
+}
+section.academic{
+    padding: 4.25em;
+}
+
+section.academicimg{
+    background-image: url(../images/academics.jpg);
+    height: 30em;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover ;
+}
