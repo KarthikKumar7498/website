@@ -46,18 +46,20 @@ section.strayimg{
     height: 30em;
     background-attachment: scroll;
     background-position: center;
-    background-size: cover ;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 section.strayimg1{
     background-image: url(../images/puppy.jpg);
     height: 30em;
     background-attachment: scroll;
     background-position: center;
-    background-size: cover ;
+    background-size: cover;
 }
 
 
-@media only screen and (max-width:600px)
+@media only screen and (min-width:24.56em) and (max-width:60em)
 {
     section.strayimg{
         background-image: url(../images/responsive.jpg);
@@ -70,12 +72,6 @@ section.strayimg1{
         overflow:hidden;
         background-repeat: no-repeat;
     }
-    
-    section.stray h2{
-      
-        font-size: 0.5em;
-          
-    }
 
     section.stray {
         padding: 2em;
@@ -84,15 +80,26 @@ section.strayimg1{
     {
         font-size: 1.1em;
     }
-    section.stray ul
+    section.stray ul ,li 
     {
             font-size: 0.9em;
-    }
-        
-    section.stray li
-    {
-            font-size: 0.9em;
-            position:relative;
     }
     
 }
+
+@media only screen and (max-width:24.50em) 
+{
+    section.stray h2
+    {
+        font-size: 1em;
+    }
+    section.stray ul ,li 
+    {
+            font-size: 0.5em;
+    }
+    section.stray p{
+        
+        font-size: 0.5em;
+    }
+}
+
