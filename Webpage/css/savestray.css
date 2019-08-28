@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section.stray {
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: 300;
+    text-align: left;
+    color: #000000;
+    line-height: 1.5em;
+}
+
+section.stray ul{
+list-style-position: inside;
+}
+
+section.stray li{
+color: #000000;
+}
+
+
+section.stray{
+    padding: 6.25em;
+    box-sizing: border-box;
+    height: auto;
+}
+
+section.stray h2{
+    font-size: 2em;
+    text-align: center;
+    margin: 0em;
+    padding: 0em;   
+}
+
+section.stray p{
+    margin: 0em;
+    padding: 0.2em 1em;
+    font-size: 1em;
+}
+
+section.strayimg{
+    background-image: url(../images/img-4.jpg);
+    height: 30em;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover ;
+}
+section.strayimg1{
+    background-image: url(../images/puppy.jpg);
+    height: 30em;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover ;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    section.strayimg{
+        background-image: url(../images/responsive.jpg);
+        background-size: cover;
+        overflow:hidden;
+        background-repeat: no-repeat;
+    }
+    section.strayimg1{
+        background-size: contain;
+        overflow:hidden;
+        background-repeat: no-repeat;
+    }
+    
+    section.stray h2{
+      
+        font-size: 0.5em;
+          
+    }
+
+    section.stray {
+        padding: 2em;
+    }
+    section.stray h2
+    {
+        font-size: 1.1em;
+    }
+    section.stray ul
+    {
+            font-size: 0.9em;
+    }
+        
+    section.stray li
+    {
+            font-size: 0.9em;
+            position:relative;
+    }
+    
+}
