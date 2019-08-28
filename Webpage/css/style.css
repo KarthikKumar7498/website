@@ -78,3 +78,22 @@ nav{
     }
 }
 
+@media only screen and (max-width:24.50em) 
+{
+    section.sec1
+    {
+        background-size: cover;
+        overflow:hidden;
+        background-repeat: no-repeat;
+    }
+    
+    .logo
+    {
+        visibility: hidden;
+    }
+
+    .nav_links li{
+        display: list-item;
+      
+    }
+}
