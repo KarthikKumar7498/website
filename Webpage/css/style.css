@@ -31,7 +31,7 @@ nav{
 }
 
 .logo{
-    width:5em;
+    width:5.35em;
     height:5em;
     order:2;
     padding: 0.2em; 
@@ -47,9 +47,7 @@ nav{
 .nav_links li{
     display: inline-block;
     padding-left: 1.5em; 
-    background-color: #f1f5f8;
-    
-       
+    background-color: #f1f5f8;   
 }
 
 .nav_links li a{
@@ -60,42 +58,7 @@ nav{
     color:#072d36;
 }
 
-.backgroundimage{
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover ;
-}
-
-section{
-    width: 100%;
-    height: 100vh;
-}
-
-section.sec1{
-    background-image: url(../images/bg1.jpg);
-    background-size: cover;
-}
-
-section.sec2{
-    padding: 6.25em;
-    box-sizing: border-box;
-    height: auto;
-}
-
-section.sec2 h2{
-    font-size: 2em;
-    margin: 0em;
-    padding: 0em;   
-}
-
-section.sec2 p{
-    font-size: 1em;
-    margin: 0em;
-    padding: 0em;   
-}
-
-@media only screen and (max-width:531px)
+@media only screen and (min-width:24.56em) and (max-width:60em)
 {
     section.sec1
     {
@@ -103,17 +66,15 @@ section.sec2 p{
         overflow:hidden;
         background-repeat: no-repeat;
     }
-
-    .nav_links li
-    {
-        height:2em;
-        flex-direction:column;
-        text-align: center;
-    }
     
     .logo
     {
         visibility: hidden;
+    }
+
+    .nav_links li{
+        display: list-item;
+      
     }
 }
 
