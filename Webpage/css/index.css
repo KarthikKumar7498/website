@@ -1,0 +1,74 @@
+.homepagecontent h2 ,p{
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+}
+
+.homepagecontent p{
+    font-size: 1em;
+}
+
+.homepagecontent h2{
+    font-size: 2.5em;
+}
+section.homepagecontent{
+    padding: 4.25em;
+}
+.backgroundimage{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section.homepage{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+section.homepagecontent{
+    padding: 6.25em;
+    box-sizing: border-box;
+    height: auto;
+}
+
+section.homepagecontent h2{
+    font-size: 2.5em;
+    margin: 0em;
+    padding: 0em;   
+}
+
+section.homepagecontent p{
+    font-size: 1em;
+    margin: 0em;
+    padding: 0em; 
+    line-height: 1.5em; 
+    
+}
+
+@media only screen and (min-width:24.56em) and (max-width:60em)
+{
+    section.homepage
+    {
+        background-size: cover;
+        overflow:hidden;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width:24.50em) 
+{
+    section.homepagecontent p{
+        font-size: 0.5em;    
+    }
+    section.homepagecontent h2{
+        font-size: 1em; 
+    }
+
+}
