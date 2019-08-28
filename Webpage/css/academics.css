@@ -29,3 +29,44 @@ section.academicimg{
     background-position: center;
     background-size: cover ;
 }
+
+@media only screen and (min-width:24.56em) and (max-width:60em)
+{
+    section.academicimg{
+        background-size: contain;
+        overflow:hidden;
+        background-repeat: no-repeat;
+    }
+    section.academic {
+        padding: 2em;
+    }
+    section.academic h2
+    {
+        font-size: 1.2em;
+    }
+    section.academic h3
+    {
+        font-size: 1.1em;
+    }
+    section.academic p
+    {
+            font-size: 0.9em;
+    }
+    
+}
+
+@media only screen and (max-width:24.50em) 
+{
+    section.academic h2
+    {
+        font-size: 0.9em;
+    }
+    section.academic h3
+    {
+        font-size: 0.8em;
+    }
+    section.academic p
+    {
+            font-size: 0.5em;
+    }
+}
