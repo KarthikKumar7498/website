@@ -1,5 +1,6 @@
 #slideshow { 
-    margin: 3em auto; 
+    margin: 50px auto; 
+    left: 280px;
     position: relative; 
     width: 62.5em; 
     height: 62.5em; 
@@ -12,4 +13,13 @@
     left: 1em; 
     right: 1em; 
     bottom: 1em; 
+}
+
+@media only screen and (min-width:24.56em) and (max-width:60em)
+{
+    #slideshow { 
+        left: 20px;
+        
+    }
+    
 }
