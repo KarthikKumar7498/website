@@ -55,3 +55,23 @@ section.achievement {
     }
     
 }
+@media only screen and (max-width:24.56em)
+{
+    section.achievementimg{
+        background-size: contain;
+        overflow:hidden;
+        background-repeat: no-repeat;
+    }
+    section.achieve {
+        padding: 2em;
+    }
+    section.achieve h3
+    {
+        font-size: 0.9em;
+    }
+    section.achieve p
+    {
+            font-size: 0.7em;
+    }
+    
+}
